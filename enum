@@ -1,0 +1,16 @@
+package subaharini;
+import java.util.*;
+class week{
+enum day
+{
+ monday,tuesday,wednesday,thursday,friday,saturday,sunday;
+}
+}
+public class suba1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		EnumSet<week.day> e=EnumSet.of(week.day.monday,week.day.tuesday,week.day.sunday);
+		System.out.println(e);
+	}
+}

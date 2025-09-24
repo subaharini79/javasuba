@@ -1,0 +1,19 @@
+package subaharini;
+import java.util.*;
+public class suba2 
+{
+    public static void main(String[] args) 
+    {
+    	LinkedHashSet<Integer> h=new LinkedHashSet<>();
+    	h.add(34);
+    	h.add(86);
+    	h.add(45);
+    	h.add(23);
+    	h.add(89);
+    	System.out.println(h);
+    	h.remove(86);
+    	System.out.println(h);
+    	System.out.println(h.contains(45));
+    	System.out.println(h.clone());
+    }
+}

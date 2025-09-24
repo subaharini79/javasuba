@@ -1,0 +1,19 @@
+package subaharini;
+import java.util.*;
+public class suba2 
+{
+    public static void main(String... args) 
+    {
+    	TreeMap<Integer,String> h=new TreeMap<>();
+    	h.put(9,"vijay");
+    	h.put(2,"suba");
+    	h.put(5,"harini");
+    	h.put(3,"shree");
+    	h.put(4,"null");
+    	h.put(8,"hello");
+    	h.put(7,"world");
+    	h.put(6,"null");
+    	System.out.println(h);
+    }
+}
+          

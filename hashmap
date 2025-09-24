@@ -1,0 +1,18 @@
+package subaharini;
+import java.util.*;
+public class suba2 
+{
+    public static void main(String... args) 
+    {
+    	HashMap<Integer,String> h=new HashMap<>();
+    	h.put(1,"vijay");
+    	h.put(2,"suba");
+    	h.put(3,"harini");
+    	h.put(4,"shree");
+    	h.put(5,"null");
+    	h.put(null,"hello");
+    	h.put(null,"world");
+    	h.put(6,"null");
+    	System.out.println(h);
+    }
+}

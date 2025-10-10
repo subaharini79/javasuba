@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner scanner= new Scanner(System.in);
+	    StringBuffer s=new StringBuffer("i hate coding");
+	   
+	    s.replace(2,6,"love");
+	    System.out.println(s);
+	    
+	    s.append("very much");
+	    System.out.println(s);
+	    
+	    s.deleteCharAt(1);
+	    System.out.println(s);
+	    
+	    s.insert(21,"❤️");
+	    System.out.println(s);
+	}
+}
